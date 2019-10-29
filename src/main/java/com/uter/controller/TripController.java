@@ -2,10 +2,8 @@ package com.uter.controller;
 
 import com.uter.entity.Driver;
 import com.uter.entity.Trip;
-import com.uter.entity.Vehicle;
 import com.uter.service.DriverService;
 import com.uter.service.TripService;
-import com.uter.service.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

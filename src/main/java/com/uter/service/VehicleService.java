@@ -1,6 +1,5 @@
 package com.uter.service;
 
-import com.uter.entity.Driver;
 import com.uter.entity.Vehicle;
 import com.uter.repository.VehicleRepository;
 import org.apache.logging.log4j.LogManager;

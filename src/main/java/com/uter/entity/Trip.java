@@ -24,15 +24,12 @@ public class Trip implements Serializable {
     @Column(name = "id")
     @GeneratedValue(generator = "tripGenerator")
     private Long id;
-
     @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "id_vehicle_fk")
     private Vehicle vehicle;
-
     @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "id_driver_fk")
     private Driver driver;
-
     @Column(name = "date")
     private Date date = new Date();
 
